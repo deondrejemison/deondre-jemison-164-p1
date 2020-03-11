@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 
 class Events extends Component {
     render() {
-        <div>
-            <h1>Events</h1>
-        </div>
+        return(
+            <div>
+                <h1>Events</h1>
+            </div>
+        )
     }
 }
 
