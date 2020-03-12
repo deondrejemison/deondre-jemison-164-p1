@@ -16,6 +16,9 @@
   height: 100%;
 }
 
+.books-grid {
+  display: flex;
+}
 .tyla-img {
   height: 250px;
   padding-top: 5em;

@@ -29,17 +29,17 @@ class Home extends Component {
 
                                 {/**GitHub */}
                                 <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                <i className="fa fa-github-square" aria-hidden="true" />
                                 </a>
 
                                 {/**FreecodeCamp */}
                                 <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                <i className="fa fa-free-code-camp" aria-hidden="true" />
                                 </a>
 
                                 {/**YouTube */}
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                <a href="http://youtube.com" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-youtube-square" aria-hidden="true" />
                                 </a>
 
                                 {/**Instagram */}
