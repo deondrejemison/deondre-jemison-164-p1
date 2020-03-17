@@ -19,7 +19,7 @@ function App() {
                       
                   </Navigation>
               </Header>
-              <Drawer title="Tyla Grace">
+              <Drawer className="title-color" title="Tyla Grace">
                   <Navigation>
                       <Link to="/home">Home</Link>
                       <Link to="/books">Books</Link>

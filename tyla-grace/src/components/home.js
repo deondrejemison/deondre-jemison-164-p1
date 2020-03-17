@@ -22,19 +22,19 @@ class Home extends Component {
 
                             <div className="social-links">
 
-                                {/**Linkedin */}
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                {/**FaceBook */}
+                                <a href="http://facebook.com" rel="noopener noreferrer" target="_blank">
+                                <i class="fa fa-facebook-square" aria-hidden="true"></i>
                                 </a>
 
-                                {/**GitHub */}
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-github-square" aria-hidden="true" />
+                                {/**InstaGram */}
+                                <a href="http://instagram.com" rel="noopener noreferrer" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
                                 </a>
 
-                                {/**FreecodeCamp */}
+                                {/**Google */}
                                 <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-free-code-camp" aria-hidden="true" />
+                                <i class="fa fa-google" aria-hidden="true"></i>
                                 </a>
 
                                 {/**YouTube */}
@@ -42,9 +42,9 @@ class Home extends Component {
                                 <i className="fa fa-youtube-square" aria-hidden="true" />
                                 </a>
 
-                                {/**Instagram */}
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                {/**Twitter */}
+                                <a href="http://twitter.com" rel="noopener noreferrer" target="_blank">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
                                 </a>
 
                             </div>

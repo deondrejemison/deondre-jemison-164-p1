@@ -169,18 +169,18 @@ class Books extends Component {
             )
         } else if(this.state.activeTab === 1) {
             return (
-                <div><h1>Hot With Customers</h1></div>
+                <div><h2>Popular Reads</h2></div>
                 
                 
                 
             )
         } else if(this.state.activeTab === 2) {
             return (
-                <div><h1>Personal Favorites</h1></div>
+                <div><h2>Personal Favorites</h2></div>
             )
         } else if(this.state.activeTab === 3) {
             return (
-                <div><h1>Pick Your Favorite</h1></div>
+                <div><h2>Choose Your Favorite</h2></div>
             )
         }
     }
