@@ -17,7 +17,7 @@
 }
 
 .books-grid {
-  display: flex;
+  /*display: flex;*/
 }
 .tyla-img {
   height: 250px;
@@ -64,6 +64,26 @@
 
 }
 
+/*Books Page*/
+
+.page-title {
+  justify-content: center;
+  list-style-position: outside;
+  /*text-align: center;*/
+}
+
+.card {
+  padding-bottom: 2rem;
+  justify-content: left;
+  left: 50px;
+  margin-left: auto;
+}
+
+.review {
+  text-align: center;
+  float: right;
+}
+
 /* Contact Page*/
 
 .contact-body {
@@ -106,3 +126,4 @@
   padding-right: 5rem;
 
 }
+

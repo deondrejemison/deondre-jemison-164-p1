@@ -13,8 +13,10 @@ function App() {
                   <Navigation>
                       <Link to="/home">Home</Link>
                       <Link to="/books">Books</Link>
+                      <Link to="/news">News</Link>
                       <Link to="/events">Events</Link>
                       <Link to="/contact">Contact</Link>
+                      
                   </Navigation>
               </Header>
               <Drawer title="Tyla Grace">
@@ -22,6 +24,7 @@ function App() {
                       <Link to="/home">Home</Link>
                       <Link to="/books">Books</Link>
                       <Link to="/events">Events</Link>
+                      <Link to="/news">News</Link>
                       <Link to="/contact">Contact</Link>
                   </Navigation>
               </Drawer>
