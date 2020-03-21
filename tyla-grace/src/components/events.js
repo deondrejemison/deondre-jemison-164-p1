@@ -6,18 +6,21 @@ class Events extends Component {
             <div>
                 <h1 className="page-title">Events</h1>
                 <h2>Upcoming Events</h2>
-                <h3>April 2th, 2020</h3>
-                <img
+                <section className="event">
+                    <h3>April 2th, 2020</h3>
+                    <img
+                    
+                    src="http://s3-media2.ak.yelpcdn.com/bphoto/8VY45nivSt-V2jM7Mnb8bw/l.jpg"
+                    alt="apr2" width="535" height="400"
+                    />
+                    <h2 className="event-title">Book Signing</h2>
+                    <p className="desc">Visit us at the Barnes and Nobles in MayFair Mall for a Book Signing! The amazing Rubie Mizell will be there along with
+                        featured authors to sign your favorite books. Don't forget to stop by our Slime store to have messy, good fun with slime!
+                    </p>
+                </section>
                 
-                src="http://s3-media2.ak.yelpcdn.com/bphoto/8VY45nivSt-V2jM7Mnb8bw/l.jpg"
-                alt="apr2" width="535" height="400"
-                />
-                <h2 className="event-title">Book Signing</h2>
-                <p className="desc">Visit us at the Barnes and Nobles in MayFair Mall for a Book Signing! The amazing Rubie Mizell will be there along with
-                    featured authors to sign your favorite books. Don't forget to stop by our Slime store to have messy, good fun with slime!
-                </p>
                 <h2>Past Events</h2>
-                
+                <section className="event">
                 <h3>December 8th, 2019</h3>
                 <img
                 
@@ -29,7 +32,9 @@ class Events extends Component {
                     help young children discover their passion for reading. For a small fee, you can grab a plate of deliciously home-cooked after you've reemerged
                     the reading advernture that awaits.
                 </p>
+                </section>
 
+                <section className="event">
                 <h3>March 17th, 2019</h3>
                 <img
                 
@@ -39,10 +44,11 @@ class Events extends Component {
                 <h2 className="event-title">Grand Opening</h2>
                 <p className="desc">Fans, we are proud to announce the Grand Opening of Tyla Grace World of Slime And Fun! This brand new addition to Mayfair Mall
                     will be a hub to our wonderful company as a whole that your children will love. With fun activities such as slime molding,
-                     and sculpturing, your kids will be begiing you to take them back. Come visit us at our new address:
+                     and sculpturing, your kids will be begging you to take them back. Come visit us at our new address:
                      2500 N Mayfair Rd, Milwaukee, WI 53226
                      (414) 253-3033
                 </p>
+                </section>
             </div>
         )
     }

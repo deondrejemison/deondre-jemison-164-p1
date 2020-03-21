@@ -68,7 +68,7 @@
   color: #03001e;
 }
 
-/*Books Page*/
+/************************************************* Books Page ********************************************************/
 
 .page-title {
   justify-content: center;
@@ -88,18 +88,54 @@
   float: right;
 }
 
-/*Events Page*/
+/************************************************* Events Page ********************************************************/
 .event-title {
   font-family: 'Satisfy', cursive;
   text-decoration: underline;
 }
 
+.event {
+  border-style: solid;
+  border-spacing: 5rem;
+  padding: 25px 50px 75px 100px;
+  margin-inline-start: auto;
+  margin: 0;
+  display: inline-block;
+}
+
+.event h2 {
+  float: right;
+  text-align: right;
+  margin: auto;
+  padding-right: 15rem;
+
+}
+
+.event p {
+  float: right;
+  text-align: right;
+  margin: auto;
+  padding-right: 10rem;
+
+}
+
+.event img {
+  float: left;
+}
+
 .desc {
+  float: right;
   font-weight: bold;
   font-family: 'Barlow Condensed', sans-serif;
 }
 
-/* Contact Page*/
+/************************************************* News Page ********************************************************/
+
+.article {
+  border: #03001e;
+}
+
+/************************************************* Contact Page ********************************************************/
 
 .contact-body {
   margin: auto;
