@@ -1,16 +1,30 @@
+home.container{
+  background-image: url();
+}
+
+@font-face {
+  src: url(fonts/GrinchedRegular.otf);
+  font-family: grinch;
+}
+
+.start {
+  font-family: grinch;
+}
+
 .header-color {
-  background: #03001e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("https://www.bing.com/th?id=OIP.A2cHovPiNnpLgeYWdEI7ggHaHa&pid=Api&rs=1");
+  background: #03001e; /*  fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E600E6, #ec38bc, #7303c0, #03001e);  /*Chrome 10-25, Safari 5.1-6*/
+  background: linear-gradient(to right, #E600E6, #ec38bc, #7303c0, #03001e); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
 }
 
 .home-grid {
-  background: #03001e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: #03001e;  fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   text-align: center;
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
   height: 100%;
@@ -19,9 +33,17 @@
 .books-grid {
   /*display: flex;*/
 }
+
+.home-container{
+  background-image: url(./images/hands-background.jpg);
+}
+
+
+
 .tyla-img {
-  height: 250px;
-  padding-top: 5em;
+  margin: auto;
+  height: 40em;
+  width: 40em;
 }
 
 .banner-text {
@@ -68,6 +90,19 @@
   color: #03001e;
 }
 
+.site-title {
+  text-align: center;
+}
+
+.nav-title {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.facebook {
+  color: #4267B2;
+}
+
 /************************************************* Books Page ********************************************************/
 
 .page-title {
@@ -89,17 +124,24 @@
 }
 
 /************************************************* Events Page ********************************************************/
+.events-container{
+  background-image: url(./images/seahorse-background.jpg);
+}
+
+
 .event-title {
   font-family: 'Satisfy', cursive;
   text-decoration: underline;
 }
 
 .event {
+  background-color: white;
   border-style: solid;
   border-spacing: 5rem;
   padding: 25px 50px 75px 100px;
   margin-inline-start: auto;
-  margin: 0;
+  margin-left: 1in;
+  margin-right: 1in;
   display: inline-block;
 }
 
@@ -130,12 +172,37 @@
 }
 
 /************************************************* News Page ********************************************************/
+.page-title {
+  position: relative;
+  bottom: 2.5rem;
+}
+
+.news-container{
+  background-image: url(./images/nature-background.jpg);
+}
 
 .article {
   border: #03001e;
 }
 
 /************************************************* Contact Page ********************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .contact-body {
   margin: auto;

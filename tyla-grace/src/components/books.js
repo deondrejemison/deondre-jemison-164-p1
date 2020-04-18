@@ -25,7 +25,7 @@ class Books extends Component {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
                                 </CardText>
                                 <CardActions border>
-                                    <Button colored>Amazon</Button>
+                                <Button colored><a href="https://www.amazon.com">Amazon</a></Button>
                                     <Button colored>Ebay</Button>
                                     <Button colored>Add To Cart</Button>
                                 </CardActions>
@@ -49,7 +49,7 @@ class Books extends Component {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Amazon</Button>
+                    <Button colored><a href="https://www.amazon.com">Amazon</a></Button>
                         <Button colored>Ebay</Button>
                         <Button colored>Add To Cart</Button>
                     </CardActions>
@@ -73,7 +73,7 @@ class Books extends Component {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Amazon</Button>
+                    <Button colored><a href="https://www.amazon.com">Amazon</a></Button>
                         <Button colored>Ebay</Button>
                         <Button colored>Add To Cart</Button>
                     </CardActions>
@@ -97,7 +97,7 @@ class Books extends Component {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Amazon</Button>
+                    <Button colored><a href="https://www.amazon.com">Amazon</a></Button>
                         <Button colored>Ebay</Button>
                         <Button colored>Add To Cart</Button>
                     </CardActions>
@@ -122,7 +122,7 @@ class Books extends Component {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Amazon</Button>
+                    <Button colored><a href="https://www.amazon.com">Amazon</a></Button>
                         <Button colored>Ebay</Button>
                         <Button colored>Add To Cart</Button>
                     </CardActions>
@@ -146,7 +146,7 @@ class Books extends Component {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
                                 </CardText>
                                 <CardActions border>
-                                    <Button colored>Amazon</Button>
+                                <Button colored><a href="https://www.amazon.com">Amazon</a></Button>
                                     <Button colored>Ebay</Button>
                                     <Button colored>Add To Cart</Button>
                                 </CardActions>
@@ -185,7 +185,7 @@ class Books extends Component {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
                                 </CardText>
                                 <CardActions border>
-                                    <Button colored>Amazon</Button>
+                                <Button colored><a href="https://www.amazon.com">Amazon</a></Button>
                                     <Button colored>Ebay</Button>
                                     <Button colored>Add To Cart</Button>
                                 </CardActions>
@@ -209,7 +209,7 @@ class Books extends Component {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Amazon</Button>
+                    <Button colored><a href="https://www.amazon.com">Amazon</a></Button>
                         <Button colored>Ebay</Button>
                         <Button colored>Add To Cart</Button>
                     </CardActions>
@@ -233,7 +233,7 @@ class Books extends Component {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Amazon</Button>
+                    <Button colored><a href="https://www.amazon.com">Amazon</a></Button>
                         <Button colored>Ebay</Button>
                         <Button colored>Add To Cart</Button>
                     </CardActions>
@@ -269,7 +269,7 @@ class Books extends Component {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Amazon</Button>
+                    <Button colored><a href="https://www.amazon.com">Amazon</a></Button>
                         <Button colored>Ebay</Button>
                         <Button colored>Add To Cart</Button>
                     </CardActions>
@@ -293,7 +293,7 @@ class Books extends Component {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Amazon</Button>
+                    <Button colored><a href="https://www.amazon.com">Amazon</a></Button>
                         <Button colored>Ebay</Button>
                         <Button colored>Add To Cart</Button>
                     </CardActions>
@@ -330,7 +330,7 @@ class Books extends Component {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
                                 </CardText>
                                 <CardActions border>
-                                    <Button colored>Amazon</Button>
+                                <Button colored><a href="https://www.amazon.com">Amazon</a></Button>
                                     <Button colored>Ebay</Button>
                                     <Button colored>Add To Cart</Button>
                                 </CardActions>
@@ -354,7 +354,7 @@ class Books extends Component {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Amazon</Button>
+                    <Button colored><a href="https://www.amazon.com">Amazon</a></Button>
                         <Button colored>Ebay</Button>
                         <Button colored>Add To Cart</Button>
                     </CardActions>
@@ -378,7 +378,7 @@ class Books extends Component {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Amazon</Button>
+                    <Button colored><a href="https://www.amazon.com">Amazon</a></Button>
                         <Button colored>Ebay</Button>
                         <Button colored>Add To Cart</Button>
                     </CardActions>
@@ -402,7 +402,7 @@ class Books extends Component {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Amazon</Button>
+                    <Button colored><a href="https://www.amazon.com">Amazon</a></Button>
                         <Button colored>Ebay</Button>
                         <Button colored>Add To Cart</Button>
                     </CardActions>
@@ -427,7 +427,7 @@ class Books extends Component {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Amazon</Button>
+                    <Button colored><a href="https://www.amazon.com">Amazon</a></Button>
                         <Button colored>Ebay</Button>
                         <Button colored>Add To Cart</Button>
                     </CardActions>
@@ -451,7 +451,7 @@ class Books extends Component {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
                                 </CardText>
                                 <CardActions border>
-                                    <Button colored>Amazon</Button>
+                                <Button colored><a href="www.amazon.com">Amazon</a></Button>
                                     <Button colored>Ebay</Button>
                                     <Button colored>Add To Cart</Button>
                                 </CardActions>

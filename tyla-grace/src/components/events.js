@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 class Events extends Component {
     render() {
         return(
-            <div>
-                <h1 className="page-title">Events</h1>
+            <div className="events-container">
+                <h1 className="page-title" font-family="grinch">Activities</h1>
                 <h2>Upcoming Events</h2>
-                <section className="event">
+                <article className="event">
                     <h3>April 2th, 2020</h3>
                     <img
                     
@@ -17,10 +17,10 @@ class Events extends Component {
                     <p className="desc">Visit us at the Barnes and Nobles in MayFair Mall for a Book Signing! The amazing Rubie Mizell will be there along with
                         featured authors to sign your favorite books. Don't forget to stop by our Slime store to have messy, good fun with slime!
                     </p>
-                </section>
+                </article>
                 
                 <h2>Past Events</h2>
-                <section className="event">
+                <article className="event">
                 <h3>December 8th, 2019</h3>
                 <img
                 
@@ -32,9 +32,9 @@ class Events extends Component {
                     help young children discover their passion for reading. For a small fee, you can grab a plate of deliciously home-cooked after you've reemerged
                     the reading advernture that awaits.
                 </p>
-                </section>
+                </article>
 
-                <section className="event">
+                <article className="event">
                 <h3>March 17th, 2019</h3>
                 <img
                 
@@ -48,7 +48,7 @@ class Events extends Component {
                      2500 N Mayfair Rd, Milwaukee, WI 53226
                      (414) 253-3033
                 </p>
-                </section>
+                </article>
             </div>
         )
     }
