@@ -4,7 +4,8 @@ import { Grid, Cell } from 'react-mdl';
 class Home extends Component {
     render() {
         return(
-            <div style={{width: '100', margin: 'auto'}}>
+            <div className="home-container" /*style={{width: '100', margin: 'auto'}}*/>
+                <body>
                 <Grid className="home-grid">
                     <Cell col={12}>
                         <img
@@ -22,19 +23,19 @@ class Home extends Component {
 
                             <div className="social-links">
 
-                                {/**Linkedin */}
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                {/**FaceBook */}
+                                <a href="http://facebook.com" rel="noopener noreferrer" target="_blank">
+                                <i class="fa fa-facebook-square" className="facebook"></i>
                                 </a>
 
-                                {/**GitHub */}
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-github-square" aria-hidden="true" />
+                                {/**InstaGram */}
+                                <a href="http://instagram.com" rel="noopener noreferrer" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
                                 </a>
 
-                                {/**FreecodeCamp */}
+                                {/**Google */}
                                 <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-free-code-camp" aria-hidden="true" />
+                                <i class="fa fa-google" aria-hidden="true"></i>
                                 </a>
 
                                 {/**YouTube */}
@@ -42,16 +43,26 @@ class Home extends Component {
                                 <i className="fa fa-youtube-square" aria-hidden="true" />
                                 </a>
 
-                                {/**Instagram */}
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                {/**Twitter */}
+                                <a href="http://twitter.com" rel="noopener noreferrer" target="_blank">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
                                 </a>
 
                             </div>
                         </div>
                     </Cell>
                 </Grid>
-                <h1>New Books</h1>
+                <h1 className="site-title">Welcome to Tyla'Grace.com</h1>
+                <p className="start">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                     when an unknown printer took a galley of type and scrambled it to make a type 
+                     specimen book. It has survived not only five centuries, but also the leap into 
+                     electronic typesetting, remaining essentially unchanged. It was popularised in 
+                     the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                     and more recently with desktop publishing software like Aldus PageMaker including 
+                     versions of Lorem Ipsum.</p>
+                </body>
+                
             </div>
         )    
     }
