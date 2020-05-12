@@ -9,12 +9,12 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Rubie Mizell</h2>
                         <img
-                            src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                            src="https://1.bp.blogspot.com/-vH_QuE2cdy8/Uh6vrniFOHI/AAAAAAAADpo/UsFv1J1YjV0/s1600/Second_Life_female_Avatar_black_hair.jpg"
                             alt="avatar"
                             style={{height: '250px'}}
                             
                         />
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Founder and CEO of'Grace Publishing
+                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Founder and CEO of Tyla'Grace Publishing
                         Author and Co-Author of Tyla Grace Loves Being Brown. Mother of two beautiful children.</p>
                     </Cell>
                     <Cell col={6}>
@@ -35,6 +35,24 @@ class Contact extends Component {
                                     someone@example.com
                                     </ListItemContent>
                             </ListItem>
+
+                            <ListItem>
+                                <ListItemContent className="button">
+                                    <button onclick="activateLasers()">
+                                        Send A Message
+                                    </button>
+                                </ListItemContent>
+                            </ListItem>
+                                {/* <ListItem>
+                                <form>
+                                    <label for="fname">First name:</label><br>
+                                    <input type="text" id="fname" name="fname" value="John"><br>
+                                    <label for="lname">Last name:</label><br>
+                                    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                                    <input type="submit" value="Submit">
+                                </form>
+                            </ListItem> */}
+                            
                             
                         </List>
                         </div>
