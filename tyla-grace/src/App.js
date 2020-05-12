@@ -12,15 +12,17 @@ function App() {
         <div className="demo-big-content">
             <Layout>
                 <Header className="header-color" title="Tyla Grace" waterfall>
-                    <HeaderRow className="nav-title" title="Tyla'Grace">
-                    <i class="fa fa-search"><Textfield
+                    <HeaderRow className="nav-title" title="Tyla Grace">
+                    <Textfield
                             value=""
                             onChange={() => {}}
                             label="Search2"
                             expandable
-                            expandableIcon="fa fa-search"
+                            expandableIcon="T" //{search}
+                            class="searchField"
+                            // expandableIcon="fa fa-search"
                             
-                        /></i>
+                        />
                     </HeaderRow>
                     <HeaderRow>
                         <Navigation>
@@ -32,11 +34,12 @@ function App() {
                         </Navigation>
                     </HeaderRow>
                 </Header>
-                <Drawer className="title-color" title="Welcome">
+                <Drawer className="title-color" title="Menu">
                     <Navigation className="">
-                        <Link to="/home">Visit Us!</Link>
-                        <Link to="/books">Check Our Clothing Line</Link>
-                        <Link to="/events">Twitter</Link>
+                        <Link to="/home">Home</Link>
+                        <a href="https://www.yelp.com/biz/tylagrace-world-of-slime-and-fun-milwaukee" target="_blank">Order Books</a>
+                        <a href="https://shopwithtylagrace.square.site/" target="_blank">Check Our Swag</a>
+                        <Link to="/events">Blog</Link>
                         <Link to="/news">Search</Link>
                     </Navigation>
                 </Drawer>
@@ -44,46 +47,17 @@ function App() {
                     <Main>
                   <div className="page-content" />
                   </Main>
-                  <Footer size="mini">
-    <FooterSection type="left" logo="Tyla'Grace">
-        <FooterLinkList>
-            <a href="#">Help</a>
-            <a href="#">Privacy & Terms</a>
-        </FooterLinkList>
-    </FooterSection>
-</Footer>
+                    <Footer size="mini">
+                        <FooterSection type="left" logo="Tyla Grace">
+                            <FooterLinkList>
+                                <a href="#">Help</a>
+                                <a href="#">Privacy & Terms</a>
+                            </FooterLinkList>
+                        </FooterSection>
+                    </Footer>
                 </Content>
             </Layout>
         </div>
-        // **************************************************************************************************************
-    /*  Uses a header that scrolls with the text, rather than staying locked at the top 
-      <div className="demo-big-content">
-          <Layout>
-              <Header className="header-color" title="Tyla Grace" scroll>
-                  <Navigation>
-                      <Link to="/home">Home</Link>
-                      <Link to="/books">Books</Link>
-                      <Link to="/news">News</Link>
-                      <Link to="/events">Events</Link>
-                      <Link to="/contact">Contact</Link>
-                      
-                  </Navigation>
-              </Header>
-              <Drawer className="title-color" title="Tyla Grace">
-                  <Navigation>
-                      <Link to="/home">Visit Us!</Link>
-                      <Link to="/books">Check Our Clothing Line</Link>
-                      <Link to="/events">Twitter</Link>
-                      <Link to="/news">Search</Link>
-                  </Navigation>
-              </Drawer>
-              <Content>
-              <Main>
-                  <div className="page-content" />
-                  </Main>
-              </Content>
-          </Layout>
-      </div> */
   );
 }
 

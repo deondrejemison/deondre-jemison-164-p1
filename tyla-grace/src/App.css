@@ -1,10 +1,44 @@
-home.container{
-  background-image: url();
-}
+/************************************************* Fonts ********************************************************/
 
 @font-face {
   src: url(fonts/GrinchedRegular.otf);
   font-family: grinch;
+}
+
+@font-face {
+  src: url(fonts/MISTV.TTF);
+  font-family: vampire;
+}
+
+@font-face {
+  src: url(fonts/gymnastikDEMO.otf);
+  font-family: gym;
+}
+
+@font-face {
+  src: url(fonts/KidsPlaceDemo.otf);
+  font-family: place;
+}
+
+@font-face {
+  src: url(fonts/ChildrenBook.ttf);
+  font-family: book;
+}
+
+@font-face {
+  src: url(fonts/kidsWritten.otf);
+  font-family: written;
+}
+
+@font-face {
+  src: url(fonts/KidspaceDEMO.ttf);
+  font-family: space;
+}
+/************************************************* Home Page ********************************************************/
+
+
+home.container{
+  background-image: url();
 }
 
 .start {
@@ -36,6 +70,11 @@ home.container{
 
 .home-container{
   background-image: url(./images/hands-background.jpg);
+}
+
+.searchField {
+  /* background-color: white; */
+  /* background-image: url(); */
 }
 
 
@@ -95,12 +134,125 @@ home.container{
 }
 
 .nav-title {
-  text-align: center;
   font-family: 'Lobster', cursive;
 }
 
 .facebook {
-  color: #4267B2;
+  /* color: #4267B2; */
+}
+
+.home-image-grid {
+  background-color: white;
+  box-sizing: border-box;
+  border: solid;
+  width: 80%;
+  margin: auto;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column-img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+.portfolio {
+  display: grid;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+
+  grid-template-areas: "img1 img2 img3 img4" "img5 img6 img7 img8" "img9 img10 img11 img12";
+}
+
+.image1 {
+  grid-area: img1;
+  text-align: center;
+}
+
+.image2 {
+  grid-area: img2;
+  text-align: center;
+}
+
+.image3 {
+  grid-area: img3;
+  text-align: center;
+}
+
+.image4 {
+  grid-area: img4;
+  text-align: center;
+}
+
+.image5 {
+  grid-area: img5;
+  text-align: center;
+}
+
+.image6 {
+  grid-area: img6;
+  text-align: center;
+}
+
+.image7 {
+  grid-area: img7;
+  text-align: center;
+}
+
+.image8 {
+  grid-area: img8;
+  text-align: center;
+}
+
+.image9 {
+  grid-area: img9;
+  text-align: center;
+}
+
+.image10 {
+  grid-area: img10;
+  text-align: center;
+}
+
+.image11 {
+  grid-area: img11;
+  text-align: center;
+}
+
+.image12 {
+  grid-area: img12;
+  text-align: center;
+}
+
+.fit {
+  width: 100%;
+  height: 100%;
 }
 
 /************************************************* Books Page ********************************************************/
@@ -123,21 +275,38 @@ home.container{
   float: right;
 }
 
+.books-grid h2 {
+  font-family: written;
+  color: black;
+}
+
 /************************************************* Events Page ********************************************************/
+.event-title {
+  background-color: white;
+  position: relative;
+  bottom: 2.5rem;
+  text-align: center;
+  font-family: place;
+}
+
 .events-container{
   background-image: url(./images/seahorse-background.jpg);
 }
 
+.event-header {
+  font-family: space;
+}
 
-.event-title {
-  font-family: 'Satisfy', cursive;
-  text-decoration: underline;
+.activity-title {
+  font-family: grinch;
+  text-align: center;
+
 }
 
 .event {
   background-color: white;
   border-style: solid;
-  border-spacing: 5rem;
+  border-spacing: 10rem;
   padding: 25px 50px 75px 100px;
   margin-inline-start: auto;
   margin-left: 1in;
@@ -146,19 +315,13 @@ home.container{
 }
 
 .event h2 {
-  float: right;
-  text-align: right;
-  margin: auto;
-  padding-right: 15rem;
 
 }
 
 .event p {
-  float: right;
-  text-align: right;
-  margin: auto;
-  padding-right: 10rem;
-
+  text-align: center;
+  padding-left: 3rem;
+  
 }
 
 .event img {
@@ -166,43 +329,46 @@ home.container{
 }
 
 .desc {
-  float: right;
+  font-size: x-large;
   font-weight: bold;
   font-family: 'Barlow Condensed', sans-serif;
 }
 
 /************************************************* News Page ********************************************************/
-.page-title {
+.news-title {
   position: relative;
-  bottom: 2.5rem;
+  bottom: 3.3rem;
+  text-align: center;
+  font-family: gym;
 }
 
 .news-container{
   background-image: url(./images/nature-background.jpg);
 }
 
-.article {
+.news-article {
+  margin: auto;
+  height: 20rem;
+  width: 80%;
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 10rem;
+  box-sizing: border-box;
+  border-spacing: 15px;
   border: #03001e;
+}
+
+.news-article img {
+  float: left;
 }
 
 /************************************************* Contact Page ********************************************************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.button {
+  margin: auto;
+  text-align: center;
+  padding-left: 12rem;
+}
 
 .contact-body {
   margin: auto;
