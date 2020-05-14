@@ -3,6 +3,7 @@ import './App.css';
 import { Layout, Drawer, Header, Content, Navigation, HeaderRow, Textfield, Footer, FooterLinkList, FooterSection } from 'react-mdl';
 import Main from './components/main'; 
 import { Link } from 'react-router-dom';
+import { useAlert } from 'react-alert'
 import search from '..//src/images/search.png';
 
 
@@ -12,15 +13,16 @@ function App() {
         <div className="demo-big-content">
             <Layout>
                 <Header className="header-color" title="Tyla Grace" waterfall>
-                    <HeaderRow className="nav-title" title="Tyla Grace">
+                    {/* NavBartitle */}
+                    <HeaderRow className="nav-title" title="TylaGrace.com">
                     <Textfield
                             value=""
                             onChange={() => {}}
                             label="Search2"
                             expandable
-                            expandableIcon="T" //{search}
-                            class="searchField"
-                            // expandableIcon="fa fa-search"
+                            expandableIcon="" //{search}
+                            class="fa fa-search"
+                            
                             
                         />
                     </HeaderRow>
@@ -37,10 +39,10 @@ function App() {
                 <Drawer className="title-color" title="Menu">
                     <Navigation className="">
                         <Link to="/home">Home</Link>
-                        <a href="https://www.yelp.com/biz/tylagrace-world-of-slime-and-fun-milwaukee" target="_blank">Order Books</a>
+                        <Link to="/books">Order Books</Link>
                         <a href="https://shopwithtylagrace.square.site/" target="_blank">Check Our Swag</a>
-                        <Link to="/events">Blog</Link>
-                        <Link to="/news">Search</Link>
+                        <Link to="/news">My Blog</Link>
+                        <Link to="/search">Search</Link>
                     </Navigation>
                 </Drawer>
                 <Content>
@@ -50,8 +52,9 @@ function App() {
                     <Footer size="mini">
                         <FooterSection type="left" logo="Tyla Grace">
                             <FooterLinkList>
-                                <a href="#">Help</a>
+                                <Link to="/faq">Help</Link>
                                 <a href="#">Privacy & Terms</a>
+                                <Link to="/contactForm">Contact Us</Link>
                             </FooterLinkList>
                         </FooterSection>
                     </Footer>

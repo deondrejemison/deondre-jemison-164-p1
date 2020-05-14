@@ -6,6 +6,9 @@ import events from './events';
 import contact from './contact';
 import books from './books';
 import news from './news';
+import contactForm from './contactForm';
+import search from './search';
+import faq from './faq';
 
 const Main = () => (
     <Switch>
@@ -15,6 +18,9 @@ const Main = () => (
         <Route path="/books" component={books} />
         <Route path="/events" component={events} />
         <Route path="/news" component={news} />
+        <Route path="/contactForm" component={contactForm} />
+        <Route path="/search" component={search} />
+        <Route path="/faq" component={faq} />
     </Switch>
 )
 

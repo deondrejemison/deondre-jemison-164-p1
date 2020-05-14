@@ -127,32 +127,8 @@ class Home extends Component {
                     
                 </div>
                 </div>
-                
-                {/* <section className="home-image-grid">
-                    <div className="row">
-                        <div className="column">
-                            <img src={require('../images/kidsParent.jpg')} />
-                            <img src={require('../images/kidsSwing.jpg')} />
-                            <img src={require('../images/kidsParent.jpg')} />
-                            <img src={require('../images/kidsParent.jpg')} />
-                            <img src={require('../images/kidsParent.jpg')} />
-                        </div>
-                        <div className="column">
-                            <img src={require('../images/kidsTayeDiggs.jpg')} />
-                            <img src={require('../images/kidsJungle.jpg')} />
-                            <img src={require('../images/kidsParent.jpg')} />
-                            <img src={require('../images/kidsParent.jpg')} />
-                        </div>
-                        <div className="column">
-                            <img src={require('../images/kidsSwing.jpg')} />
-                            <img src={require('../images/kidsBallPit.jpg')} />
-                            <img src={require('../images/kidsParent.jpg')} />
-                            <img src={require('../images/kidsParent.jpg')} />
-                            <img src={require('../images/kidsParent.jpg')} />
-                        </div>
-                    </div>
-                </section> */}
-                <h1 className="site-title">Welcome to Tyla Grace.com</h1>
+                <section className="home-sec">
+                <h1 className="sec-title">Welcome to Tyla Grace.com</h1>
                     <article className="catch">
                         <p className="start">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -164,6 +140,24 @@ class Home extends Component {
                             versions of Lorem Ipsum.
                         </p>
                     </article>
+                </section>
+                <section className="home-sec">
+                    <h1 className="site-title">Welcome to Tyla Grace.com</h1>
+                    <article className="catch">
+                        <p className="start">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an unknown printer took a galley of type and scrambled it to make a type 
+                            specimen book. It has survived not only five centuries, but also the leap into 
+                            electronic typesetting, remaining essentially unchanged. It was popularised in 
+                            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                            and more recently with desktop publishing software like Aldus PageMaker including 
+                            versions of Lorem Ipsum.
+                        </p>
+                    </article>
+                </section>
+                
+
+
                 </body>
             </div>
         )    

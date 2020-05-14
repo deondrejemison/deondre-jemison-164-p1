@@ -34,11 +34,15 @@
   src: url(fonts/KidspaceDEMO.ttf);
   font-family: space;
 }
+
+@font-face {
+  src: url(fonts/KidsAlphabet.ttf);
+  font-family: alphabet;
+}
 /************************************************* Home Page ********************************************************/
 
-
-home.container{
-  background-image: url();
+.home-container{
+  background-image: url(./images/hands-background.jpg);
 }
 
 .start {
@@ -48,8 +52,8 @@ home.container{
 .header-color {
   background-image: url("https://www.bing.com/th?id=OIP.A2cHovPiNnpLgeYWdEI7ggHaHa&pid=Api&rs=1");
   background: #03001e; /*  fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #E600E6, #ec38bc, #7303c0, #03001e);  /*Chrome 10-25, Safari 5.1-6*/
-  background: linear-gradient(to right, #E600E6, #ec38bc, #7303c0, #03001e); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
+  background: -webkit-linear-gradient(to right, #E600E6, #ec38bc, #7303c0, #03001e, rgb(21, 224, 14));  /*Chrome 10-25, Safari 5.1-6*/
+  background: linear-gradient(to right, #E600E6, #ec38bc, #7303c0, #03001e, rgb(21, 224, 14)); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
 }
 
 .home-grid {
@@ -64,12 +68,20 @@ home.container{
   height: 100%;
 }
 
-.books-grid {
-  /*display: flex;*/
+.home-sec
+{
+  background-color: white;
+  border-style: solid;
+  border-spacing: 10rem;
+  padding: 25px 50px 75px 100px;
+  margin-inline-start: auto;
+  margin-left: 1in;
+  margin-right: 1in;
+  display: inline-block;
 }
 
-.home-container{
-  background-image: url(./images/hands-background.jpg);
+.books-grid {
+  /*display: flex;*/
 }
 
 .searchField {
@@ -134,7 +146,7 @@ home.container{
 }
 
 .nav-title {
-  font-family: 'Lobster', cursive;
+  font-family: alphabet;
 }
 
 .facebook {
@@ -411,3 +423,13 @@ home.container{
 
 }
 
+/****************************************************FAQ*************************************************************/
+
+.question {
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+
+.answer {
+  font-size: x-large;
+}
