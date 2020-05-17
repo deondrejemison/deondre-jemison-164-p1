@@ -9,6 +9,11 @@ import news from './news';
 import contactForm from './contactForm';
 import search from './search';
 import faq from './faq';
+import mission from './mission';
+import story from './story';
+import crew from './crew';
+import book from './book';
+
 
 const Main = () => (
     <Switch>
@@ -21,6 +26,10 @@ const Main = () => (
         <Route path="/contactForm" component={contactForm} />
         <Route path="/search" component={search} />
         <Route path="/faq" component={faq} />
+        <Route path="/mission" component={mission} />
+        <Route path="/story" component={story} />
+        <Route path="/crew" component={crew} />
+        <Route path="/book" component={book} />
     </Switch>
 )
 

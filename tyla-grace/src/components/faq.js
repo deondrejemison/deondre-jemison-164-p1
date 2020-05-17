@@ -7,7 +7,7 @@ class FAQ extends Component {
     render() {
         return(
             <div className="faq-container"  >
-                <h1>Frequently Asked Questions</h1>
+                <h1 className="faq-title">Frequently Asked Questions</h1>
                 <ul>
                     <li>
                         <h3 className="question">How do you order books?</h3>
@@ -23,17 +23,19 @@ class FAQ extends Component {
                     </li>
                     <li>
                         <h3 className="question">Is there a way to contact you?</h3>
-                        <p className="answer">Yes, by clicking the contact tab at eiher top or bottom of the page. For obvious
-                         reasons, I will not give out the contact information of anyone/entity displayed on TylaGrace.com.</p>
+                        <p className="answer">Yes, by clicking the contact tab at either the top or bottom of the page. For obvious
+                         reasons, I will not give out the contact information of anyone or any entity displayed on TylaGrace.com.</p>
                     </li>
                     <li>
-                        <h3 className="question">The searcb bar/form isn't working.</h3>
+                        <h3 className="question">The search bar/form isn't working.</h3>
                         <p className="answer">As time goes on, we will continue to add more content and change features. The
-                            search function will be available once we finish updating the website Check back in the future to
+                            search function will be available once we finish updating the website. Check back in the future
                              to see what's new.
                         </p>
                     </li>
         </ul>
+            <img className="faq-img" src="https://th.bing.com/th/id/OIP.ZV9sqxmHjkdJq92da7HcogHaE8?w=266&h=177&c=7&o=5&pid=1.7"
+                        alt="DBZ1" />
             </div>
         )
     }

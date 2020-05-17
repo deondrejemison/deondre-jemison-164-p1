@@ -66,7 +66,7 @@ class Contact extends Component {
                             <ListItem>
                                 <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                                    (414) 867-5309
+                                    (123) 867-5309
                                     </ListItemContent>
                             </ListItem>
                             
@@ -79,7 +79,7 @@ class Contact extends Component {
 
                             <ListItem>
                                 <ListItemContent className="button">
-                                    <Button colored onClick={this.handleOpenDialog} raised ripple>Show Dialog</Button>
+                                    <Button colored onClick={this.handleOpenDialog} raised ripple>Send Message</Button>
                                         <Dialog open={this.state.openDialog}>
                                         <DialogTitle>Allow data collection?</DialogTitle>
                                         <DialogContent>
