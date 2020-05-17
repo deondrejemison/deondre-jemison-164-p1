@@ -35,6 +35,20 @@ class Events extends Component {
                 </article>
 
                 <article className="event">
+                <h3>November 20th, 2019</h3>
+                <img
+                
+                src="https://lh3.googleusercontent.com/sluSpQEdo9wN4dNO2RBxHlnfMTnGe-Gzk8KHCvBsvQNMefIbcS7Ej9PbXIbkNr-G8VPS_hKYyypPy26ZtlfXbr8py-1bSV1pfi5UTthvaeNNP9LFSU_pjkqMYz4D_mNXb4UPOe0cJKMH8-JlmYzJp9wpJ8qxUhhDw-yiYh5JKSxXYEDkphtN9IiMUtqe05A2OZc4L7Vp8yGo3J2LcaPJH5YgTrzbta-f6EYtVU3d4wF0Joa9XkZOB0qDnA-0yO4ovtyf5FYqLUka88w-rcO0hnWd1W7mXH-Pcgf9TUjNEFE4BKUmjOSS4f-DxkNA1R8mDqI7rPWRF7rYEyymMGLr43R9T92xyW1fHcZJhVV39wP0qOGN-wAzipjJRAnit0WFc1z0POXvfDZ5R90P7so8HNcJFxhfYOmnCGZik7sj0cMhrOboNcoHj7qNsQOBJQhZTMHX6M_PG1R-U1GZBcpCl5Ql6PwfXkH3rvTmyXjAS8vRuDa8F1lhvUql-OqgCVydPd-GFdb5hm-gkh6mNvXBtR-xY--g3Zi1jPVQcscBzNmDlDCpR-qN_Ryoikp40Wt7UxIEKvNE5PgbesvCF0dnM45UTgYTFTJY_50eYea4rSVO-JCtlM2vvquSTC1eoXs3s9T1ts0OQ2ZzKuLitRG7iDF9d5KYNKzZ9BG1F-zynMWG_RCHNfoC8HT72n0=w443-h625-no?authuser=0"
+                alt="nov20" width="600" height="808"
+                />
+                <h2 className="activity-title">#BlackLivesMatter</h2>
+                <p className="desc">This day we discuss the problems the black community face such as police brutality and
+                 gang violence. We will dissect the situations that plague our young men and women and explore solutionns
+                  so that our children can be safe when going about their lives.
+                </p>
+                </article>
+
+                <article className="event">
                 <h3>March 17th, 2019</h3>
                 <img
                 

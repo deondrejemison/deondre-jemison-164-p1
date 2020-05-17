@@ -34,11 +34,15 @@
   src: url(fonts/KidspaceDEMO.ttf);
   font-family: space;
 }
+
+@font-face {
+  src: url(fonts/KidsAlphabet.ttf);
+  font-family: alphabet;
+}
 /************************************************* Home Page ********************************************************/
 
-
-home.container{
-  background-image: url();
+.home-container{
+  background-image: url(./images/hands-background.jpg);
 }
 
 .start {
@@ -48,8 +52,8 @@ home.container{
 .header-color {
   background-image: url("https://www.bing.com/th?id=OIP.A2cHovPiNnpLgeYWdEI7ggHaHa&pid=Api&rs=1");
   background: #03001e; /*  fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #E600E6, #ec38bc, #7303c0, #03001e);  /*Chrome 10-25, Safari 5.1-6*/
-  background: linear-gradient(to right, #E600E6, #ec38bc, #7303c0, #03001e); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
+  background: -webkit-linear-gradient(to right, #E600E6, #ec38bc, #7303c0, #03001e, rgb(21, 224, 14));  /*Chrome 10-25, Safari 5.1-6*/
+  background: linear-gradient(to right, #E600E6, #ec38bc, #7303c0, #03001e, rgb(21, 224, 14)); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
 }
 
 .home-grid {
@@ -64,12 +68,23 @@ home.container{
   height: 100%;
 }
 
-.books-grid {
-  /*display: flex;*/
+.home-sec
+{
+  background-color: white;
+  border-style: solid;
+  border-spacing: 10rem;
+  padding: 25px 50px 75px 100px;
+  margin-inline-start: auto;
+  margin-left: 1in;
+  margin-right: 1in;
+  display: inline-block;
+  position: relative;
+  /* position: absolute;
+  bottom: 0; */
 }
 
-.home-container{
-  background-image: url(./images/hands-background.jpg);
+.books-grid {
+  /*display: flex;*/
 }
 
 .searchField {
@@ -134,7 +149,7 @@ home.container{
 }
 
 .nav-title {
-  font-family: 'Lobster', cursive;
+  font-family: alphabet;
 }
 
 .facebook {
@@ -253,6 +268,71 @@ home.container{
 .fit {
   width: 100%;
   height: 100%;
+}
+
+/*.cover-card {
+  background-image: url(./images/profile.jpg);
+  color: '#fff';
+  height: '476px';
+
+}*/
+
+.profile {
+  background-image: url(./images/profile.jpg);
+  height: 1692px;
+  width: 1110px;
+  margin: auto;
+  
+  
+}
+
+.public-article {
+  margin: auto;
+  height: 20rem;
+  width: 80%;
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 10rem;
+  box-sizing: border-box;
+  border-spacing: 15px;
+  border: #03001e;
+}
+
+.public-article img {
+  float: right;
+}
+
+.personal-article {
+  margin: auto;
+  height: 20rem;
+  width: 80%;
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 10rem;
+  box-sizing: border-box;
+  border-spacing: 15px;
+  border: #03001e;
+}
+
+.personal-article img {
+  float: left;
+}
+
+.mission {
+  background-image: url(./images/seahorse-background.jpg);
+  height: 200px;
+  width: 200px;
+}
+
+.story {
+  background-image: url(./images/baby.jpg);
+  height: 200px;
+  width: 200px;
+}
+
+.book {
+  height: 200px;
+  width: 200px;
 }
 
 /************************************************* Books Page ********************************************************/
@@ -411,3 +491,32 @@ home.container{
 
 }
 
+/****************************************************FAQ*************************************************************/
+.faq-container {
+  width:  85%;
+}
+
+.faq-img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  height: 450px;
+  width: 1200px;
+ /* width: 1000px; */
+
+}
+
+.faq-title {
+  text-align: center;
+}
+
+.question {
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+
+.answer {
+  font-size: x-large;
+}
