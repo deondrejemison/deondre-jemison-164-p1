@@ -3,8 +3,8 @@ import './App.css';
 import { Layout, Drawer, Header, Content, Navigation, HeaderRow, Textfield, Footer, FooterLinkList, FooterSection } from 'react-mdl';
 import Main from './components/main'; 
 import { Link } from 'react-router-dom';
-import { useAlert } from 'react-alert'
-import search from '..//src/images/search.png';
+//import { useAlert } from 'react-alert'
+//import search from '..//src/images/search.png';
 
 
 function App() {
@@ -40,7 +40,7 @@ function App() {
                     <Navigation className="">
                         <Link to="/home">Home</Link>
                         <Link to="/books">Order Books</Link>
-                        <a href="https://shopwithtylagrace.square.site/" target="_blank">Check Our Swag</a>
+                        <a href="https://shopwithtylagrace.square.site/" target="_blank" rel="noreferrer noopener">Check Our Swag</a>
                         <Link to="/news">My Blog</Link>
                         <Link to="/search">Search</Link>
                     </Navigation>
@@ -53,7 +53,7 @@ function App() {
                         <FooterSection type="left" logo="Tyla Grace">
                             <FooterLinkList>
                                 <Link to="/faq">Help</Link>
-                                <a href="#">Privacy & Terms</a>
+                                <Link to="/eula">Privacy & Terms</Link>
                                 <Link to="/contactForm">Contact Us</Link>
                             </FooterLinkList>
                         </FooterSection>

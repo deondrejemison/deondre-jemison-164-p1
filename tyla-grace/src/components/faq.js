@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Switch, Route, Link} from 'react-router-dom';
-import nature from '../images/nature-background.jpg'
+//import { Switch, Route, Link} from 'react-router-dom';
+//import nature from '../images/nature-background.jpg'
 
 
 class FAQ extends Component {
@@ -16,10 +16,10 @@ class FAQ extends Component {
                              An account is required on either of those sites.
                               You can Sign in through 
                              <a href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&"
-                              target="_blank"> Amazon </a>
+                              target="_blank" rel="noreferrer noopener"> Amazon </a>
                               and
                               <a href="https://reg.ebay.com/reg/PartialReg?ru=https%3A%2F%2Fwww.ebay.com%2F"
-                              target="_blank"> Ebay</a> here</p>
+                              target="_blank" rel="noreferrer noopener"> Ebay</a> here</p>
                     </li>
                     <li>
                         <h3 className="question">Is there a way to contact you?</h3>
