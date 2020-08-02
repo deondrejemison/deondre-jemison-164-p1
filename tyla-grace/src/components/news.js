@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Switch, Route, Link} from 'react-router-dom';
-import nature from '../images/nature-background.jpg'
+import { Link } from 'react-router-dom';
+//import nature from '../images/nature-background.jpg'
 
 
 class News extends Component {

@@ -67,10 +67,10 @@ class ContactForm extends Component {
         this.setState({message: event.target.value})
     }
     
-    handleSubmit(event) {
+    /*handleSubmit(event) {
         event.preventDefault();
         console.log(this.state);
-    }
+    }*/
 }
 
 

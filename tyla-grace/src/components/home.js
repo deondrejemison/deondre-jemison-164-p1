@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Switch, Route, Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import { profile } from '../images/profile.jpg';
-import { baby } from '../images/baby.jpg';
-import { second } from '../images/second.jpg';
-// import { profile } from '../images/profile.jpg';
-// import { profile } from '../images/profile.jpg';
+//import { baby } from '../images/baby.jpg';
+//import { second } from '../images/second.jpg';
+//import { profile } from '../images/profile.jpg';
+//import { profile } from '../images/profile.jpg';
 
 class Home extends Component {
     render() {
